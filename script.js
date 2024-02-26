@@ -9,7 +9,7 @@ let weather = document.getElementById("weather");
 
 weather.addEventListener("change", ()=>{
     let value = weather.value;
-    let url = `http://api.openweathermap.org/data/2.5/weather?q=${value}&limit=5&appid=d71ad3bc2d410065a426e3045fa8bf2e`;
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${value}&limit=5&appid=d71ad3bc2d410065a426e3045fa8bf2e`;
     // let url = "api.openweathermap.org/data/2.5/forecast?lat=10.75&lon=106.6667&limit=5&appid=d71ad3bc2d410065a426e3045fa8bf2e"
     
     console.log(weather.value);
