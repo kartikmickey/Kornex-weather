@@ -1,0 +1,44 @@
+#main{
+    text-align: center;
+    border: 1px solid black;
+    padding: 25px 10px;
+    margin: 20px;
+    background: linear-gradient(rgb(148, 231, 148) , rgb(231, 231, 149));
+}
+label{
+    font-size: 25px;
+}
+select{
+    width: 70vw;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(51, 34, 34);
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+#data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+#days{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+}
+h2{
+    margin-right: 10px;
+}
+#data> div{
+    margin-left: 25px;
+}
